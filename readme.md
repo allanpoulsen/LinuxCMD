@@ -3,6 +3,9 @@
 Collection of useful / often used commands in .sh's</br>
 
 ## Install
-git get https://gitlab.systemadministrator.dk
-chmod u+x patch.sh
+cd ~
+sudo mkdir allan
+cd allan
+sudo git clone http://gitlab.systemadministrator.dk/allan/linuxcommands.git
+chmod u+x ~/allan/patch.sh
 ./patch.sh
