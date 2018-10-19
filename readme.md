@@ -7,5 +7,5 @@ cd ~
 sudo mkdir allan
 cd allan
 sudo git clone http://gitlab.systemadministrator.dk/allan/linuxcommands.git
-chmod u+x ~/allan/patch.sh
-./patch.sh
+sudo chmod u+x ~/allan/linuxcommands/runchmod.sh
+./runchmod.sh
