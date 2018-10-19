@@ -5,10 +5,10 @@ Collection of useful / often used commands in .sh's<br>
 runchmod cleans up<br>
 
 ## Install and cleanup
-cd ~</br>
-sudo mkdir allan</br>
-cd allan</br>
-sudo git clone http://gitlab.systemadministrator.dk/allan/linuxcommands.git
+cd ~<br>
+sudo mkdir allan<br>
+cd allan<br>
+sudo git clone http://gitlab.systemadministrator.dk/allan/linuxcommands.git<br>
 sudo chmod u+x ~/allan/linuxcommands/runchmod.sh
 cd ~
 sudo allan/linuxcommands/runchmod.sh
