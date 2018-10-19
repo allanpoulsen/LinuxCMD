@@ -1,13 +1,13 @@
 # Allan's Linux command lib
 
 Collection of useful / often used commands in .sh's</br>
-.sh's are placed in /usr/local/bin
-runchmod cleans up
+.sh's are placed in /usr/local/bin</br>
+runchmod cleans up</br>
 
 ## Install and cleanup
-cd ~
-sudo mkdir allan
-cd allan
+cd ~</br>
+sudo mkdir allan</br>
+cd allan</br>
 sudo git clone http://gitlab.systemadministrator.dk/allan/linuxcommands.git
 sudo chmod u+x ~/allan/linuxcommands/runchmod.sh
 cd ~
