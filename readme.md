@@ -6,10 +6,10 @@ runchmod cleans up<br>
 
 ## Install and cleanup
 ```sh
-cd ~<br>
-sudo mkdir allan<br>
-cd allan<br>
-sudo git clone http://gitlab.systemadministrator.dk/allan/linuxcommands.git<br>
+<br>
+sudo mkdir allan
+cd allan
+sudo git clone http://gitlab.systemadministrator.dk/allan/linuxcommands.git
 sudo chmod u+x ~/allan/linuxcommands/runchmod.sh
 cd ~
 sudo allan/linuxcommands/runchmod.sh
