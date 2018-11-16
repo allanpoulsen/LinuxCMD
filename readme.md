@@ -4,6 +4,8 @@ Collection of useful / often used commands in .sh's<br>
 .sh's are placed in /usr/local/bin<br>
 runchmod cleans up<br>
 
+Enjoy :-)<br>
+
 ## Install scripts
 ```sh
 cd ~
