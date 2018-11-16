@@ -4,9 +4,8 @@ Collection of useful / often used commands in .sh's<br>
 .sh's are placed in /usr/local/bin<br>
 runchmod cleans up<br>
 
-## Install and cleanup
+## Install scripts
 ```sh
-<br>
 sudo mkdir allan
 cd allan
 sudo git clone http://gitlab.systemadministrator.dk/allan/linuxcommands.git
