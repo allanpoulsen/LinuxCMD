@@ -19,10 +19,10 @@
 #    yelp/observium
 
 sudo docker run -d \
-           --name observium2 \
+           --name observium \
            -v /nas2/docker/containers/observium2/volumes/config:/config \
            -v /nas2/docker/containers/observium2/volumes/logs:/opt/observium/logs \
            -v /nas2/docker/containers/observium2/volumes/rrd:/opt/observium/rrd \
            -e TZ="Europe/Copenhagen" \
-           -p 8668:8668 \
+           -p 8000:8668 \
            uberchuckie/observium
