@@ -4,6 +4,6 @@ sudo docker run -d \
 	 	-e 'LETSENCRYPT_EMAIL=allan@thorstein.dk' -e 'LETSENCRYPT_HOST=cloud.systemadministrator.dk' -e 'VIRTUAL_HOST=cloud.systemadministrator.dk' \
 		-e 'trusted_domains=cloud.systemadministrator.dk' \
 		--name owncloud \
-		owncloud:latest
+		owncloud/server
 
 sudo docker ps -a
