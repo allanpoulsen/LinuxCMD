@@ -8,3 +8,5 @@ sudo docker stop portainer
 # sudo docker rm porttainer
 sudo docker stop observium
 # sudo docker rm observium
+sudo docker stop smtp
+# sudo docker rm smtp
