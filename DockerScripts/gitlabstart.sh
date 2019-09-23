@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "This script starts gitlab as a Docker container - the container is automaticly restarted "
+echo "This script starts gitlab as a Docker container "
 
 # Org fra foer SSL
 # sudo docker run -d --restart always --hostname gitlab.systemadministrator.dk --publish 80:80 --publish 443:443 --name gitlab --volume /nas2/docker/containers/gitlab/config:/etc/gitlab --volume /nas2/docker/containers/gitlab/logs:/var/log/gitlab --volume /nas2/docker/containers/gitlab/data:/var/opt/gitlab gitlab/gitlab-ce:latest
