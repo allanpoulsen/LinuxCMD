@@ -8,8 +8,8 @@ echo Starting System, Survailiance, Proxy Containers and other stateless contain
 #                -v /etc/nginx/vhost.d  -v /usr/share/nginx/html -v /var/run/docker.sock:/tmp/docker.sock:ro --label com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy=true  \
 #                jwilder/nginx-proxy
 
-#sudo docker pull jrcs/letsencrypt-nginx-proxy-companion
-#sudo docker run -d \
+# sudo docker pull jrcs/letsencrypt-nginx-proxy-companion
+# sudo docker run -d \
 #               --name nginx-letsencrypt \
 #                --volumes-from nginx-proxy \
 #                -v /nas2/docker/containers/proxy/certs:/etc/nginx/certs:rw \

@@ -10,3 +10,4 @@ sudo docker stop observium
 # sudo docker rm observium
 sudo docker stop smtp
 # sudo docker rm smtp
+sudo docker container stop registry && sudo docker container rm -v registry
