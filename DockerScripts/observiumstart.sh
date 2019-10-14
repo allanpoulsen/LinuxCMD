@@ -1,3 +1,4 @@
+#!/bin/bash
 #sudo docker run -d  --name observium --restart always \
  #               --volume /nas2/docker/containers/observium/config:/config \
 #		--volume /nas2/docker/containers/observium/logs:/opt/observium/logs \
