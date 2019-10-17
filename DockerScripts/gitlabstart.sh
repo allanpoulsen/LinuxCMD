@@ -6,7 +6,7 @@ echo "This script starts gitlab as a Docker container "
 # sudo docker run -d --restart always --hostname gitlab.systemadministrator.dk --publish 80:80 --publish 443:443 --name gitlab --volume /nas2/docker/containers/gitlab/config:/etc/gitlab --volume /nas2/docker/containers/gitlab/logs:/var/log/gitlab --volume /nas2/docker/containers/gitlab/data:/var/opt/gitlab gitlab/gitlab-ce:latest
 
 # This one needs LetsEntrypt and ReverseProxy container, but it's GREAT!
-sudo docker run -d --name gitlab --restart always --hostname gitlab.systemadministrator.dk \
+sudo docker run -d --name gitlab --restart always --hostname gitlab.systemadministrator.dk --publish 222:22 \
                    --volume /nas2/docker/containers/gitlab/config:/etc/gitlab \
                    --volume /nas2/docker/containers/gitlab/logs:/var/log/gitlab \
                    --volume /nas2/docker/containers/gitlab/data:/var/opt/gitlab \
