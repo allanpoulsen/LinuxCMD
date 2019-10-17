@@ -1,4 +1,5 @@
 #!/bin/bash
+# https://github.com/cturra/docker-ntp
 echo Starting stateless NTP server on port 123UDP
 docker run --name=ntp             \
               --restart=always       \
