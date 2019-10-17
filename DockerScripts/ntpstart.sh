@@ -1,5 +1,5 @@
 #!/bin/bash
-echo Strating stateless NTP server on port 123UDP
+echo Starting stateless NTP server on port 123UDP
 docker run --name=ntp             \
               --restart=always       \
               --detach=true          \
