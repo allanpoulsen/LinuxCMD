@@ -1,4 +1,4 @@
-echo Starting System, Survailiance, Proxy Containers and other stateless containers...
+echo Starting System, Survailiance and other stateless containers...
 
 #sudo docker pull jwilder/nginx-proxy
 #sudo docker run -d -p 80:80 -p 443:443 \
@@ -20,9 +20,9 @@ echo Starting System, Survailiance, Proxy Containers and other stateless contain
 
 # sudo docker run --name smtp -d -p 25:25 -e RELAY_NETWORKS=:192.168.0.0/24 namshi/smtp
 
-sudo docker start nginx-proxy
-sudo docker start nginx-letsencrypt
+# sudo docker start nginx-proxy
+# sudo docker start nginx-letsencrypt
 sudo docker start portainer
 sudo docker start observium
-sudo docker start smtp
-sudo docker start ntp
+# sudo docker start smtp
+# sudo docker start ntp
