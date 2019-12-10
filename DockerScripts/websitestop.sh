@@ -1,2 +1,4 @@
-sudo docker stop website
-sudo docker rm website
+sudo docker stop website_enduser
+sudo docker rm website_enduser
+sudo docker pull dockerrepo.lan.local:5000/website_enduser:x64
+
