@@ -14,7 +14,7 @@ sudo apt-get install git
 cd ~
 sudo mkdir allan
 cd allan
-git clone ...
+sudo git clone http://gitlab.systemadministrator.dk/allan/linuxcommands.git
 cd linuxcmd
 cd SNMP
 sudo cp *.* /etc/snmp/
