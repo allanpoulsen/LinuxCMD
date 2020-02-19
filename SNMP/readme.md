@@ -9,8 +9,9 @@ https://support.atera.com/hc/en-us/articles/220109447-How-To-Monitor-Linux-Serve
 Cmds:
 
 ```
-sudo apt-get install snmpd -y
-sudo apt-get install git
+sudo apt update
+sudo apt install snmpd -y
+sudo apt install git
 cd ~
 sudo mkdir allan
 cd allan
