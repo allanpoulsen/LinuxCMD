@@ -16,8 +16,7 @@ cd ~
 sudo mkdir allan
 cd allan
 sudo git clone http://gitlab.systemadministrator.dk/allan/linuxcommands.git
-cd linuxcmd
-cd SNMP
+cd ~/allan/linuxcommands/SNMP
 sudo cp *.* /etc/snmp/
 sudo service snmpd restart
 ```
