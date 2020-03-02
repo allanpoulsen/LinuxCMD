@@ -24,5 +24,5 @@ echo Starting System, Survailiance and other stateless containers...
 # sudo docker start nginx-letsencrypt
 sudo docker start portainer
 sudo docker start observium
-# sudo docker start smtp
+sudo docker start mailserver
 # sudo docker start ntp
