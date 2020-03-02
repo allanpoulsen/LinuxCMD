@@ -7,13 +7,16 @@ https://support.atera.com/hc/en-us/articles/220109447-How-To-Monitor-Linux-Serve
 
 
 Cmds:
-sudo apt-get install snmpd -y
-sudo apt-get install git
+
+```
+sudo apt update
+sudo apt install snmpd -y
+sudo apt install git
 cd ~
 sudo mkdir allan
 cd allan
-git clone ...
-cd linuxcmd
-cd SNMP
+sudo git clone http://gitlab.systemadministrator.dk/allan/linuxcommands.git
+cd ~/allan/linuxcommands/SNMP
 sudo cp *.* /etc/snmp/
 sudo service snmpd restart
+```

@@ -1,0 +1,1082 @@
+sudo apt-get update && sudo apt-get upgrade -y
+sudo reboot now
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get update && sudo apt-get distupgrade -y
+sudo apt-get update && sudo apt-get dist-upgrade -y
+sudo reboot now
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt update
+sudo apt install certbot python3-certbot-nginx
+sudo reboot now
+sudo apt-get update && sudo apt-get dist-upgrade -y
+certbot --version
+sudo certbot certonly --standalone -d grejtilturen.dk -d www.grejtilturen.dk
+sudo ufw allow https
+sudo ufw allow http
+sudo ufw allow snmp
+sudo certbot certonly --standalone -d grejtilturen.dk -d www.grejtilturen.dk
+sudo update-rc.d nginx enable
+systemctl status nginx.service
+curl 127.0.0.1
+sudo nano /etc/nginx/sites-available/grejtilturen.dk.conf
+sudo service nginx start
+sudo nginx -s reload
+sudo certbot certonly --standalone -d grejtilturen.dk -d www.grejtilturen.dk
+sudo nano /etc/nginx/sites-available/grejtilturen.dk.conf
+netstat -ln
+service nginx stop
+service nginx status
+sudo ufw status
+sudo ufw enable
+sudo ufw status
+sudo certbot certonly --standalone -d grejtilturen.dk -d www.grejtilturen.dk
+service nginx start
+sudo nano /etc/nginx/sites-available/www.grejtilturen.dk.conf
+sudo ln -s /etc/nginx/sites-available/www.grejtilturen.dk.conf /etc/nginx/sites-enabled/www.grejtilturen.dk.conf
+sudo nginx -s reload
+sudo nano /etc/nginx/sites-available/www.grejtilturen.dk.conf
+sudo nginx -s reload
+cd /etc/nginx/sites-available/[A
+ls
+rm grejtilturen.dk.conf 
+ls
+sudo rm grejtilturen.dk.conf 
+ls
+sudo reboot now
+sudo apt-get install snmpd
+ls
+sudo ufw allow snmp from 192.168.1.0/24
+sudo ufw allow snmp from 192.168.1.0
+sudo ufw allow from 192.168.1.0/24 proto udp
+sudo ufw allow from 192.168.1.0/24 proto snmp
+sudo ufw allow from 192.168.1.0/24 port 1234
+sudo ufw allow from 192.168.1.0/24 port 161
+sudo ufw delete
+sudo ufw list
+sudo ufw status
+sudo nano /lib/ufw/user.rules
+
+sudo status numbered
+sudoufw  status numbered
+sudo ufw  status numbered
+sudo ufw remove 5
+sudo ufw remove 
+sudo ufw delete 5
+sudo ufw  status numbered
+sudo ufw delete 5
+sudo ufw  status numbered
+sudo ufw delete 5
+sudo ufw  status numbered
+sudo nano /etc/snmp/snmpd.conf
+sudo service snmpd start
+service snmpd status
+systemd.gpt_auto
+sudoufw  status numbered
+sudo ufw  status numbered
+sudo ufw allow 161
+sudo reboot now
+sudo ufw allow ssh
+sudo nano /etc/snmp/snmpd.conf
+sudo chmod -x /etc/update-motd.d/*
+/etc/update-motd.d/01-custom
+sudo nano /etc/update-motd.d/01-custom
+sudo apt install inxi screenfetch ansiweather
+sudo nano /etc/update-motd.d/01-custom
+sudo chmod +x /etc/update-motd.d/01-custom
+logout
+/usr/bin/screenfetch
+/usr/bin/screenfetchexport TERM=xterm; inxi -D
+export TERM=xterm; inxi -D
+sudo apt install inxi
+sudo chmod +x /etc/update-motd.d/01-custom
+sudo nano /etc/update-motd.d/01-custom
+logout
+sudo rm /etc/update-motd.d/01-custom
+logout
+sudo rm /etc/update-motd.d/01-custom
+sudo nano /etc/update-motd.d/01-custom
+cd /etc/update-motd.d/
+ls
+sudo nano 50-landscape-sysinfo 
+sudo nano /etc/update-motd.d/01-custom
+sudo chmod +x /etc/update-motd.d/01-custom
+logout
+sudo nano /etc/update-motd.d/50-landscape-sysinfo 
+sudo nano /etc/update-motd.d/01-custom
+sudo reboot now
+sudo chmod +x /etc/update-motd.d/*
+logout
+cd /etc/update-motd.d
+ls
+sudo rm 01-custom 
+ls
+cat 00-header 
+ogout
+logout
+cd /etc/update-motd.d
+ls
+sudo chmod -x 10-help-text 
+cat 50-motd-news 
+ls
+sudo nano 50-landscape-sysinfo 
+logout
+cd /etc/update-motd.d
+ls
+sudo chmod -x 50-motd-news 
+logout
+sudo vi /etc/ssh/sshd_config
+sudo nano /etc/ssh/sshd_config
+sudo nano /etc/banner
+logout
+cd /etc/update-motd.d
+ls
+sudo sh -c 'echo "Welcome, my Master :-)" > /etc/motd'
+sudo reboot now
+apt-get install fail2ban
+sudo apt-get install fail2ban
+cp /etc/fail2ban/fail2ban.conf /etc/fail2ban/fail2ban.local
+sudo cp /etc/fail2ban/fail2ban.conf /etc/fail2ban/fail2ban.local
+cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+sudo nano /etc/fail2ban/jail.local
+sudo fail2ban-client status sshd
+sudo nano /etc/nginx/nginx.conf
+sudo fail2ban-client status sshd
+sudo nano /etc/default/grub
+sudo update-grub
+sudo fail2ban-client status sshd
+sudo nano /etc/fail2ban/jail.local
+sudo ufw  status numbered
+fail2ban-client reload
+sudo fail2ban-client reload
+sudo fail2ban-client status
+sudo fail2ban-client status nginx-http-auth
+ls /var/log/nginx/
+ls /var/log/nginx/grejtilturen.dk.access.log 
+cat /var/log/nginx/grejtilturen.dk.access.log 
+sudo nano /etc/fail2ban/jail.local
+sudo fail2ban-client reload
+sudo nano /etc/fail2ban/jail.local
+sudo fail2ban-client reload
+sudo nano /etc/fail2ban/jail.local
+sudo fail2ban-client reload
+sudo nano /etc/fail2ban/jail.local
+sudo fail2ban-client reload
+ls /var/log/nginx/
+ls /var/log/nginx/access.log 
+cat /var/log/nginx/access.log 
+sudo nano /etc/fail2ban/jail.local
+sudo fail2ban-client reload
+sudo nano /etc/fail2ban/filter.d/
+sudo nano /etc/fail2ban/filter.d
+#
+sudo nano /etc/fail2ban/jail.local
+sudo fail2ban-client reload
+sudo nano /etc/fail2ban/jail.local
+cd /etc/fail2ban/filter.d
+sudo cp apache-badbots.conf nginx-badbots.conf
+sudo fail2ban-client reload
+sudo nano /etc/fail2ban/jail.local
+sudo fail2ban-client reload
+sudo nano /etc/fail2ban/jail.local
+sudo fail2ban-client status nginx-http-auth
+sudo fail2ban-client status
+sudo fail2ban-client status all
+sudo fail2ban-client status sshd
+sudo fail2ban-client status nginx-badbots
+curl 127.0.0.1
+sudo reboot now
+ls /var/log/nginx*/*error*.log
+sudo apt remove lxd|
+sudo apt remove lxd*
+free
+sudo nano fail2ban-allstatus.sh
+sudo chmod +x fail2ban-allstatus.sh 
+./fail2ban-allstatus.sh 
+sudo ./fail2ban-allstatus.sh 
+sudo nano fail2ban-allstatus.sh
+ls
+sudo ./fail2ban-allstatus.sh 
+logout
+ssh dockerprod
+exit
+cd /etc/nginx/sites-available/
+
+cp www.grejtilturen.dk.conf gitlab.systemadministrator.dk.conf
+sudo cp www.grejtilturen.dk.conf gitlab.systemadministrator.dk.conf
+ls
+sudo nano gitlab.systemadministrator.dk.conf 
+sudo fail2ban-client reload
+nginx -s reload
+sudo systemctl stop nginx
+sudo certbot certonly --standalone -d gitlab.systemadministrator.dk
+sudo certbot certonly --standalone -d cloud.systemadministrator.dk
+sudo systemctl start nginx
+ls
+sudo nano gitlab.systemadministrator.dk.conf 
+nginx -s reload
+sudo nano gitlab.systemadministrator.dk.conf 
+sudo snginx -s reload
+sudo nginx -s reload
+ls
+cat gitlab.systemadministrator.dk
+cat gitlab.systemadministrator.dk.conf 
+sudo ls /etc/letsencrypt/live/
+sudo ls /etc/letsencrypt/live/gitlab.systemadministrator.dk
+ls
+sudo ./fail2ban-allstatus.sh 
+logout
+sudo ./fail2ban-allstatus.sh 
+logout
+ssh dockerprod
+logout
+ls
+ssh dockernode07
+logout
+ssh dockernode07
+logout
+sudo ./fail2ban-allstatus.sh 
+logout
+ls
+sudo nano gitlab.systemadministrator.dk.conf 
+sudo nginx -s reload
+cd /etc/nginx/sites-available/
+sudo nano gitlab.systemadministrator.dk.conf 
+ls
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo ls /etc/letsencrypt/live/
+sudo ls /etc/letsencrypt/live/grejtilturen.dk
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+cat /var/log/nginx/grejtilturen.dk.error.log
+time
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+logout
+ssh dockerprod
+sudo apt-get update && sudo apt-get dist-upgrade -y
+logout
+ssh friluftsliv
+logout
+ls
+./fail2ban-allstatus.sh 
+sudo ./fail2ban-allstatus.sh 
+ssh dockerprod
+sudo apt-get update && sudo apt-get dist-upgrade -y
+logout
+sudo ls /etc/letsencrypt/live/
+logout
+ssh dockerprod
+logout
+ls
+sudo ./fail2ban-allstatus.sh 
+logout
+ssh dockerprod
+curl 192.168.1.11
+curl 192.168.1.11:443
+ssh dockerprod
+ls
+cd /etc/nginx/sites-available/
+ls
+sudo nano gitlab.systemadministrator.dk.conf 
+ls ~/
+ls -a ~/
+sudo nano ~/.bash_history 
+sudo ln -s /etc/nginx/sites-available/gitlab.systemadministrator.dk.conf /etc/nginx/sites-enabled/gitlab.systemadministrator.dk.conf
+ls ../sites-enabled/
+sudo nano ~/.bash_history 
+sudo nginx -s reload
+sudo nano ~/.bash_history 
+sudo certbot certonly --standalone -d cloud.systemadministrator.dk -d cloud.systemadministrator.dk
+ls
+cp gitlab.systemadministrator.dk.conf cloud.systemadministrator.dk.conf
+sudo cp gitlab.systemadministrator.dk.conf cloud.systemadministrator.dk.conf
+ls
+sudo nano cloud.systemadministrator.dk.conf 
+sudo ln -s /etc/nginx/sites-available/cloud.systemadministrator.dk.conf /etc/nginx/sites-enabled/cloud.systemadministrator.dk.conf
+ssh dockerprod
+ls
+sudo ls /etc/letsencrypt/live/
+sudo nginx -s reload
+sudo nano cloud.systemadministrator.dk.conf 
+sudo nginx -s reload
+ssh dockerprod
+ls
+cd ~
+ls
+sudo nano /etc/fail2ban/filter.d/owncloud.conf
+sudo nano /etc/fail2ban/jail.local
+service fail2ban restart
+ls
+./fail2ban-allstatus.sh 
+sudo ./fail2ban-allstatus.sh 
+service fail2ban start
+sudo ./fail2ban-allstatus.sh 
+sudo nano /etc/fail2ban/jail.local
+service fail2ban start
+sudo nano /etc/fail2ban/jail.local
+sudo ./fail2ban-allstatus.sh 
+sudo nano /etc/fail2ban/filter.d/gitlab.conf
+sudo nano /etc/fail2ban/jail.local
+service fail2ban restart
+sudo ./fail2ban-allstatus.sh 
+cat /var/log/nginx/gitlab.systemadministrator.dk.access.log
+sudo ./fail2ban-allstatus.sh 
+cat /var/log/nginx/gitlab.systemadministrator.dk.access.log
+ls /var/log/nginx/
+logout
+ls
+cd /etc/nginx/sites-available/
+ls
+sudo nano cloud.systemadministrator.dk.conf 
+ls
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano cloud.systemadministrator.dk.conf 
+ls
+cat default 
+ls
+cp default default.org
+sudo cp default default.org
+rm default
+sudo rm default
+sudo nginx -s reload
+touch default
+sudo touch default
+sudo nginx -s reload
+ls
+sduo rm default
+sudo rm default
+sudo cp default.org default
+sudo nginx -s reload
+cd ~
+ls
+sudo nano cd-sites.sh
+sudo chmod +x cd-sites.sh 
+ls
+sudo ./fail2ban-allstatus.sh 
+logout
+sudo ./fail2ban-allstatus.sh 
+cat /var/log/nginx/gitlab.systemadministrator.dk.access.log
+cat /var/log/nginx/cloud.systemadministrator.dk.access.log
+ls
+./cd-sites.sh 
+ls
+sudo nano cd-sites.sh 
+./cd-sites.sh
+cat cd-sites.sh 
+cd /etc/nginx/sites-available/
+ls
+sudo nano cloud.systemadministrator.dk.conf 
+sudo nginx -s reload
+ls
+sudo nano www.grejtilturen.dk.conf 
+cd /
+ls
+cd home
+cd allan
+ls
+./fail2ban-allstatus.sh 
+sudo ./fail2ban-allstatus.sh 
+/cat /var/log/nginx/grejtilturen.dk.access.log
+cat /var/log/nginx/grejtilturen.dk.access.log
+logout
+sudo apt-get update && sudo apt-get dist-upgrade -y
+sudo disk -l
+sudo fdisk -l
+sudo mount /dev/sda2 /media/hej
+sudo mkdir /media/backupdrive
+sudo mount /dev/sda2 /media/backupdrive/[B[A
+ls /media/backupdrive/
+ls /media/backupdrive/usr
+ls /media/backupdrive/home
+ls /media/backupdrive/home/allan
+ls /media/backupdrive/home/pi
+ls /media/backupdrive/home/pi/ap
+sudo rm -rf /media/backupdrive/
+cd /media/backupdrive/
+ls
+sudo nano /etc/fstab
+sudo reboot now
+rsync
+ls
+sudo nano backup_logs.sh
+sudo fdisk -l
+
+sudo nano backup_logs.sh
+ls
+cat fail2ban-allstatus.sh 
+sudo ./fail2ban-allstatus.sh 
+sudo nano backup_logs.sh
+ls
+cat backup_logs.sh 
+sudo rsync -r /var/log/nginx/*.gz /media./backupdrive
+sudo mount /dev/sda /media/backupdrive
+sudo fdisk -l
+sudo mount /dev/sda2 /media/backupdrive
+cat backup_logs.sh 
+sudo nano backup_logs.sh
+ls
+sudo chmod +x backup_logs.sh 
+ls
+./backup_logs.sh 
+sudo nano backup_logs.sh
+./backup_logs.sh 
+sudo crontab -e
+ls
+sudo crontab -e
+ls
+sudo reboot now
+sudo apt-get update && sudo apt-get dist-upgrade -y
+ls
+sudo ./fail2ban-allstatus.sh 
+logout
+ssh dockerprod
+logout
+ls
+./cd-sites.sh 
+ls
+vat cd-sites.sh 
+cat cd-sites.sh 
+cd /etc/nginx/sites-available
+ls
+sudo nano cloud.systemadministrator.dk.conf 
+sudo nginx -s reload
+sudo nano cloud.systemadministrator.dk.conf 
+ls
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+ls
+sudo nani default
+sudo nano default
+sudo nano www.grejtilturen.dk.conf 
+ls /etc/nginx/sites-enabled/
+sudo rm /etc/nginx/sites-enabled/default 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+ls
+cp default /etc/nginx/sites-enabled/
+sudo cp default /etc/nginx/sites-enabled/
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo rm /etc/nginx/sites-enabled/default 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf
+sudo nginx -s reload
+ls
+cp cloud.systemadministrator.dk.conf cloud.systemadministrator.dk.conf.org
+sudo cp cloud.systemadministrator.dk.conf cloud.systemadministrator.dk.conf.org
+rm cloud.systemadministrator.dk.conf
+sudo rm cloud.systemadministrator.dk.conf
+ls /etc/nginx/sites-enabled/
+sudo rm /etc/nginx/sites-enabled/cloud.systemadministrator.dk.conf 
+ls /etc/nginx/sites-enabled/
+sudo nginx -s reload
+ls
+sudo cp cloud.systemadministrator.dk.conf.org cloud.systemadministrator.dk.conf
+ls
+sudo ln -s /etc/nginx/sites-available/cloud.systemadministrator.dk.conf /etc/nginx/sites-enabled/cloud.systemadministrator.dk.conf
+sudo nginx -s reload
+ls
+sudo rm *.org
+ls
+sudo nginx -s reload
+ls
+sudo nano cloud.systemadministrator.dk.conf 
+sudo nginx -s reload
+sudo nano cloud.systemadministrator.dk.conf 
+cat  /var/log/nginx/cloud.systemadministrator.dk.error.log
+ssh dockerprod
+sudo nano cloud.systemadministrator.dk.conf 
+ls
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+logout
+sudo mount /dev/sda2 /media/backupdrive
+cd /media/backupdrive/
+ls
+sudo mkdir configfiles
+cd ~
+ls
+cat cd-sites.sh 
+cd /media/backupdrive/
+ls
+sudo mount /dev/sda2 /media/backupdrive
+ls
+sudo rsync -r /var/log/nginx/*.gz /media/backupdrive
+ls
+sudo rsync -r /etc/nginx/sites-available /media/backupdrive/configfiles
+ls
+ls /etc/nginx/sites-available
+logout
+ls
+sudo nani backup_logs.sh 
+sudo nano backup_logs.sh 
+ls
+./backup_logs.sh 
+ls /media
+ls /media/backupdrive/
+ls
+sudo nano backup_logs.sh 
+ls
+./fail2ban-allstatus.sh 
+sudo nano fail2ban-allstatus.sh 
+./fail2ban-allstatus.sh 
+sudo ./fail2ban-allstatus.sh 
+logout
+ssh friluftsliv
+logout
+ssh dockerprod
+logout
+ssh 192.168.1.76
+logout
+ssh friluftsliv
+logout
+sudo apt-get update && sudo apt-get dist-upgrade -y
+sudo reboot now
+ls
+sudo ./fail2ban-allstatus.sh 
+ls
+exit
+ssh dockerprod
+logout
+ssh 192.168.1.250
+ssh mysql
+ssh mysql.lan.local
+logout
+ls
+./fail2ban-allstatus.sh 
+sudo ./fail2ban-allstatus.sh 
+ls
+cat cd-sites.sh 
+cd /etc/nginx/sites-available
+ls
+cp cloud.systemadministrator.dk.conf office.grejtilturen.dk.conf
+sudo cp cloud.systemadministrator.dk.conf office.grejtilturen.dk.conf
+sudo nano office.grejtilturen.dk.conf 
+ping office.grejtilturen.dk
+sudo reboot no
+d cloud.systemadministrator.dk
+ls
+ls -a
+sudo nano .bash_history 
+sudo certbot certonly --standalone -d office.grejtilturen.dk
+sudo systemctl stop nginx
+
+nslookup
+sudo systemctl start nginx
+sudo systemctl stop nginx
+sudo certbot certonly --standalone -d office.grejtilturen.dk
+sudo systemctl start nginx
+sudo nano .bash_history 
+ls
+cat cd-sites.sh 
+cd /etc/nginx/sites-available
+ls
+sudo ln -s /etc/nginx/sites-available/office.grejtilturen.dk.conf /etc/nginx/sites-enabled/office.grejtilturen.dk.conf
+sudo nano ~/.bash_history 
+sudo nginx -s reload
+ls
+sudo nano office.grejtilturen.dk.conf 
+ssh dockerprod
+exit
+ls
+cat cd-sites.sh 
+cd /etc/nginx/sites-available
+ls
+sudo nano office.grejtilturen.dk.conf 
+exit
+cd /etc/nginx/sites-available
+ls
+sudo nano office.grejtilturen.dk.conf 
+sudo nginx -s reload
+cd ~
+ls
+sudo nano cert_renew.sh
+sudo chmod +x cert_renew.sh
+ls
+sudo ./cert_renew.sh 
+ls
+sudo ./backup_logs.sh 
+logout
+ls
+ssh dockerprod
+exit
+ls
+sudo ./fail2ban-allstatus.sh 
+logout
+ssh dockerprod
+logout
+sudo ./fail2ban-allstatus.sh 
+ssh dockerprof
+ssh dockerprod
+exit
+ssh dockerprod
+logout
+ssh dockernode07
+exit
+ssh dockernode07
+exit
+ls
+cat cd-sites.sh 
+cd /etc/nginx/sites-available
+ls
+sudo nano cloud.systemadministrator.dk.conf 
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -s reload
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -s reload
+sudo nano /etc/nginx/nginx.conf
+sudo nano cloud.systemadministrator.dk.conf 
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -s reload
+sudo nano cloud.systemadministrator.dk.conf 
+ls
+sudo nano gitlab.systemadministrator.dk.conf 
+sudo nginx -s reload
+logout
+ls
+ssh dockernode07
+ssh dockernode07
+ls
+sudo ./fail2ban-allstatus.sh 
+logout
+sudo ./fail2ban-allstatus.sh 
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt autoremove -y
+sudo reboot now
+sudo apt-get update && sudo apt-get upgrade -y
+ls
+sudo ./backup_logs.sh 
+ls
+ls -a
+logout
+ssh dockerprod
+logout
+uptime
+logout
+sudo apt-get update && sudo apt-get upgrade -y
+sudo reboot now
+ssh dockernode07
+ls
+ssh dockerprod
+ssh dockernode07
+logout
+ssh dockernode07
+logout
+sudo ./fail2ban-allstatus.sh 
+logout
+ls
+cat cd-sites.sh 
+cd /etc/nginx/sites-available
+ls
+sudo nani www.grejtilturen.dk.conf 
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+logout
+ls
+cat cd-sites.sh 
+cd /etc/nginx/sites-available
+ls
+sudo nano www.grejtilturen.dk.conf 
+sudo nginx -s reload
+logout
+curl -L -O https://github.com/nginxinc/nginx-amplify-agent/raw/master/packages/install.sh
+API_KEY='f4fcb41ab0833e395b3cb13c9ac33189' sh ./install.sh
+free
+cd /etc/nginx
+grep -i include\.*conf nginx.conf
+cat > conf.d/stub_status.conf
+sudo cat > conf.d/stub_status.conf
+sudo nano cat > /etc/nginxconf.d/stub_status.conf
+sudo nano cat > /etc/nginx/conf.d/stub_status.conf
+cd /etc/nginx
+grep -i include\.*conf nginx.conf
+ls conf.d
+ls /etc/nginx/modules-enabled/
+su
+ls
+ls -a
+sudo cd conf.d
+ls
+sudo cat > conf.d/stub_status.conf
+sudo systemctl stop nginx 
+sudo cat > conf.d/stub_status.conf
+sudo systemctl start nginx
+sudo passwd root
+su
+sudo systemctl start nginx
+
+ls
+cat cd-sites.sh 
+cd /etc/nginx/sites-available
+ls
+sudo nano www.grejtilturen.dk.conf
+sudo nano gitlab.systemadministrator.dk.conf 
+sudo nano office.grejtilturen.dk.conf 
+service nginx status
+cd ~
+ls
+sudo nano reload.sh
+sudo chmod +x reload.sh 
+./reload.sh 
+sudo chmod +x reload.sh 
+sudo nano reload.sh
+./reload.sh 
+logout
+sudo apt-get update && sudo apt-get upgrade -y
+sudo reboot now
+sudo systemctl start nginx
+ls
+sudo ./fail2ban-allstatus.sh 
+logout
+ssh dockernode07
+ssh dockerprod
+ssh dockernode06
+ssh dockernode07
+ssh dockernode06
+exit
+ssh dockerrepo.lan.local
+ssh dockernode06
+logout
+ssh dockernode07
+exit
+ls
+ssh dockernode06
+exit
+ssh dockernode07
+exit
+ls
+sudo ./fail2ban-allstatus.sh 
+logout
+ssh dockerprod
+ls
+logout
+ssh dockerprod
+exit
+logout
+ssh dockerrepo
+exit
+sudo apt-get update && sudo apt-get upgrade -y
+ssh dockerrepo
+sudo reboot now
+sudo systemctl start nginx
+logout
+ssh 192.168.1.105
+ls
+cat cd-sites.sh 
+cd /etc/init.d
+sudo nano nginx-passenger.sh
+sudo chmod +x  /etc/init.d/nginx-passenger.sh
+sudo /etc/init.d/nginx-passenger.sh
+ls /etc/init.d/nginx-passenger.sh
+sudo /etc/init.d/nginx-passenger.sh
+ls
+sudo rm nginx-passenger.sh
+logout
+ssh root@192.168.1.107
+ls
+./fail2ban-allstatus.sh 
+sudo ./fail2ban-allstatus.sh 
+logout
+ssh dockerprod
+exit
+ssh dockerprod
+exit
+ls
+mkdir allan
+cd allan
+ls
+ssh dockerprod
+dotnet
+ssh dockernode06
+logout
+ls
+cat cd-sites.sh 
+cd /etc/nginx/sites-available
+ls
+sudo nano www.grejtilturen.dk.conf 
+service nginx status
+cd ~
+ls
+./reload.sh 
+sudo nano www.grejtilturen.dk.conf 
+sudo nano /etc/nginx/www.grejtilturen.dk.conf 
+sudo nano /etc/nginx/sites-available/www.grejtilturen.dk.conf
+./reload.sh 
+sudo apt-get update && sudo apt-get upgrade -y
+sudo reboot now
+sudo systemctl start nginx
+logout
+sudo apt-get update && sudo apt-get upgrade -y
+ls
+./fail2ban-allstatus.sh 
+sudo ./fail2ban-allstatus.sh 
+logout
+ssh dockerprod
+logout
+ls
+ssh dockerprod
+exit
+sudo ./fail2ban-allstatus.sh 
+logout
+ssh dockerprod
+sudo apt update && sudo apt upgrade -y
+sudo reboot now
+ls
+./reload.sh 
+ls
+sudo systemctl start nginx
+sudo nano start.sh
+sudo chmod +x start.sh
+ls
+./cert_renew.sh 
+sudo ./cert_renew.sh 
+ls
+cat cert_renew.sh 
+ssh dockerprod
+exit
+ssh dockerprod
+exit
+ping 192.168.1.100
+logout
+ssh dockerprod
+sudo apt update
+apt list --upgradable
+sudo apt upgarde -y
+sudo apt upgrade -y
+sudo apt autoremove -y
+ls
+sudo ./fail2ban-allstatus.sh 
+ls
+cat start.sh 
+sudo reboot now
+ls
+sudo ./start.sh 
+logout
+sudo apt upgrade -y
+sudo reboot now
+ssh dockerprod
+logout
+ls
+sudo ./start.sh 
+ping office.systemadministrator.dk
+ping office.grejtilturen.dk
+ls
+sudo ./backup_logs.sh 
+ssh dockerprod
+exit
+ls
+cat cd-sites.sh 
+cd /etc/nginx/sites-available
+ls
+cp gitlab.systemadministrator.dk.conf 
+cp gitlab.systemadministrator.dk.conf  toolbox.systemadministrator.dk.conf
+sudo cp gitlab.systemadministrator.dk.conf  toolbox.systemadministrator.dk.conf
+ls
+sudo nano toolbox.systemadministrator.dk.conf 
+ls
+cd ~
+ls
+cat cert_renew.sh 
+sudo certbot certonly --standalone -d toolbox.systemadministrator.dk
+sudo systemctl stop nginx 
+sudo certbot certonly --standalone -d toolbox.systemadministrator.dk
+sudo systemctl start nginx 
+ls
+sudo ./reload.sh 
+cd /etc/nginx/sites-available
+ls
+ls ..
+ls ../sites-enabled/
+æs
+ls
+
+sudo ln -s /etc/nginx/sites-available/toolbox.systemadministrator.dk.conf /etc/nginx/sites-enabled/toolbox.systemadministrator.dk.conf
+re-properties-common
+cd ~
+ls
+./reload.sh 
+ls
+cd /etc/nginx/sites-available
+ls
+sudo nano toolbox.systemadministrator.dk.conf 
+ls ~
+cat ~/reload.sh 
+sudo nginx -s reload
+ls
+sudo nano toolbox.systemadministrator.dk.conf 
+sudo nginx -s reload
+sudo nano toolbox.systemadministrator.dk.conf 
+sudo nginx -s reload
+sudo nano toolbox.systemadministrator.dk.conf 
+sudo nginx -s reload
+logout
+sudo apt update
+sudo apt upgrade
+sudo reboot now
+ls
+./start.sh 
+cat cd-sites.sh 
+cd /etc/nginx/sites-available/
+ls
+sudo nano toolbox.systemadministrator.dk.conf 
+sudo nginx -s reload
+sudo nano toolbox.systemadministrator.dk.conf 
+sudo nginx -s reload
+sudo nano toolbox.systemadministrator.dk.conf 
+sudo htpasswd -c /etc/apache2/.htpasswd allan
+sudo apt install htpasswd
+sudo apt install apache2-utils
+sudo htpasswd -c /etc/apache2/.htpasswd allan
+htpasswd -bn allan
+htpasswd -bn allanGjvaq1gbgun#
+htpasswd -bn -c allanGjvaq1gbgun#
+clear
+sudo apt remove apache2-utils
+sudo apt autoremove
+ls
+sudo nano toolbox.systemadministrator.dk.conf 
+sudo nginx -s reload
+logout
+ssh dockerprod
+ssh 192.168.1.105
+exit
+ls
+./start.sh
+ls
+cat cd-sites.sh 
+cd /etc/nginx/sites-available
+ls
+cat toolbox.systemadministrator.dk.conf 
+exit
+sudo apt upgarde -y
+sudo apt upgrade -y
+logout
+sudo apt update
+sudo apt upgrade -y
+sudo reboot now
+ls
+./start.sh
+logout
+ssh dockerprod
+ls
+./fail2ban-allstatus.sh 
+sudo ./fail2ban-allstatus.sh 
+logout
+ping old.pharmakon.dk
+logout
+sudo apt upgrade -y
+logout
+sudo apt update
+sudo apt upgrade -y
+sudo reboot now
+ls
+sudo ./start.sh 
+sudo apt upgrade -y
+sudo apt autoremove -y
+ssh dockerprod
+exit
+ssh dockerprod
+exit
+ssh dockerprof
+ssh dockerprod
+exit
+ssh dockerprod
+exit
+ssh 192.168.1.105
+exit
+sudo apt update
+sudo apt upgrade -y
+sudo reboot now
+ls
+./start.sh 
+./backup_logs.sh 
+sudo apt update
+sudo apt upgrade -y
+logout
+logout
+ssh dockerprod
+logout
+sudo apt upgrade -y
+sudo reboot now
+sudo apt dist-upgrade -y
+ls
+./start.sh 
+./cert_renew.sh 
+sudo ./cert_renew.sh 
+sudo apt update
+logout
+ssh dockerprod
+exit
+cd /nas3
+ls
+cd /nas3
+ls
+cd /nas2
+ls
+cd ..
+ls
+cd allan
+ls
+ssh dockerprod
+exit
+ssh dockerprod
+exit
+ssh dockerprod
+ls
+cat cd-sites.sh 
+cd /etc/nginx/sites-available
+ls
+sudo nano cloud.systemadministrator.dk.conf 
+cd ~
+ls
+./reload.sh 
+ssh dockerprod
+exit
+ssh dockerprod
+logout
+sudo apt dist-upgrade -y
+sudo apt upgrade -y
+sudo reboot now
+ls
+sudo ./start.sh 
+./backup_logs.sh 
+logout
