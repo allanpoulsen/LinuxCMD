@@ -14,4 +14,4 @@ sudo docker stop observium
 # sudo docker rm ntp
 # sudo docker stop ntp
 sudo docker stop mailserver
-sudo docker stop registry
+# sudo docker stop registry
