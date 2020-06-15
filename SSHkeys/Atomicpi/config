@@ -1,0 +1,9 @@
+User allan
+   IdentityFile ~/.ssh/atomicpi
+   TCPKeepAlive yes
+   IdentitiesOnly yes
+
+User pi
+   IdentityFile ~/.ssh/atomicpi
+   TCPKeepAlive yes
+   IdentitiesOnly yes
