@@ -1,6 +1,6 @@
-echo "This script stops all Containers, based on local stop scripts ... "
-./proxystop.sh
-./wordpressstop.sh
-./owncloudstop.sh
+echo "This script stops and removes all Containers, based on local stop scripts ... "
 ./gitlabstop.sh
-sudo docker ps -a
+./websitestop.sh
+./proxystop.sh
+cd owncloud
+./stopANDremove.sh
