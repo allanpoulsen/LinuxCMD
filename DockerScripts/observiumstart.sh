@@ -21,9 +21,10 @@
 
 sudo docker run -d \
            --name observium \
-           -v /nas2/docker/containers/observium2/volumes/config:/config \
-           -v /nas2/docker/containers/observium2/volumes/logs:/opt/observium/logs \
-           -v /nas2/docker/containers/observium2/volumes/rrd:/opt/observium/rrd \
+           --restart=always \
+           -v /nas3/docker/containers/observium2/volumes/config:/config \
+           -v /nas3/docker/containers/observium2/volumes/logs:/opt/observium/logs \
+           -v /nas3/docker/containers/observium2/volumes/rrd:/opt/observium/rrd \
            -e TZ="Europe/Copenhagen" \
            -p 8000:8668 \
            uberchuckie/observium

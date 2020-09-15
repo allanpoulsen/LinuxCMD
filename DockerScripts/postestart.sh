@@ -1,8 +1,10 @@
 echo "This script starts Posto.io as a Docker container "
 sudo docker run -d \
 		--net=host \
+                --restart=always \
+		--publish 25:25 --publish 587:587 \
 		-v /etc/localtime:/etc/localtime:ro \
-		-v /nas2/docker/containers/posto:/data \
+		-v /nas3/docker/containers/posto:/data \
 		--name mailserver \
 		-h "office.grejtilturen.dk" \
 		-e "HTTPS=OFF" \
