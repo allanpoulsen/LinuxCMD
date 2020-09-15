@@ -16,6 +16,12 @@ echo Seconds sinf start: $SECONDS
 echo -e "-> ${RED}Update Dockerprod${NC}"
 ssh allan@dockerprod ./websitestop.sh
 ssh allan@dockerprod ./websitestart.sh
-echo -e "-> Site updated, now forcing build on 10 nodes, hold on .... starting at: " $SECONDS
-for i in {1..10}; do curl https://grejtilturen.dk > /dev/null 2>&1; echo $i; done
+echo -e "-> Site updated, now forcing build on known nodes nodes, hold on .... starting at: " $SECONDS
+curl http://p1.lan.local:1234 > /dev/null 2>&1;
+curl http://p2.lan.local:1234 > /dev/null 2>&1;
+curl http://p3.lan.local:1234 > /dev/null 2>&1;
+curl http://p4.lan.local:1234 > /dev/null 2>&1;
+curl http://p5.lan.local:1234 > /dev/null 2>&1;
+curl http://p6.lan.local:1234 > /dev/null 2>&1;
+curl http://dockerprod.lan.local:1234 > /dev/null 2>&1;
 echo -e "Update done, took: " $SECONDS " seconds. Time saved, thank you :-) "
